@@ -91,11 +91,11 @@ body {
 
 .salon {
     border-style: solid;
-    border-color: black;
     width: 100%;
     height: 15vh;
     background-color: #009a9a;
     margin-top: 3%;
+    border-color: #009a9a;
 }
 
 
@@ -344,4 +344,31 @@ background: #519194;
     overflow-wrap: break-word;  
     word-wrap: break-word; 
     word-break: break-word;
+}
+
+.bt_header {
+    border-style: solid;
+    width: 100%;
+    height: 15vh;
+    background-color: #009a9a;
+    margin-top: 7%;
+    border-color: #009a9a;
+    
+}
+
+.copyright p {
+  float: right;
+    margin-top: 2.5%;
+    transform: translate(400px, 75% );
+    
+}
+
+#social {
+float: right;
+margin-left: 50%;
+text-align: center;
+transform: translate(-50px, -350%);
+border: lightblue;
+padding: 5px;
+background-color: lightblue;
 }
