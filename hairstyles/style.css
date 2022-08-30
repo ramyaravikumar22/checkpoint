@@ -1,3 +1,4 @@
+
 body {
     background-color: lightgray;
 }
@@ -90,80 +91,97 @@ h1 {
 
 }
 
-.section {
+
+table {
+    margin-top: 3%;
     margin-left: 20%;
-    margin-top: 6%;
-    margin-right: 12.5%;
+    
+  
 }
 
-.article1 {
-    font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+td {
+    border:3px solid #009a9a;
+    padding: 3px;
+    box-shadow: 5px 10px 10px 5px;
 
 }
 
-.temp p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+td:hover {
+        border:3px solid #009a9a;
+        padding: 3px;
+        box-shadow: 5px 10px 10px 5px;
+        background-color: black;
+    
 }
 
-.article2 p {
-    font-family: 'Times New Roman', Times, serif;
+.show {
+    text-align: center;
+    margin-top: 3%;
+    color: black;
 }
 
-.moretemp {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-}
-
-.community {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-}
-
-.details {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-}
-
-.article4 li {
-    list-style: none;
-}
-
-.article4 {
-    line-height: normal;
-}
-
-/**/
 
 .bt_header {
     border-style: solid;
     width: 100%;
     height: 15vh;
     background-color: #009a9a;
-    margin-top: 4%;
+    margin-top: 3%;
     border-color: #009a9a;
     
 }
 
 .copyright p {
-   text-align: center;
-   font-weight: lighter;
-   transform: translate(1px, 150%);
+    text-align: center;
+    font-weight: normal;
+    transform: translate(1px, 150%);
+     
+ }
+ 
+ #social {
+     float: right;
+     border: 10px solid #387a82;
+     background-color: #387a82;
+     transform: translate(-100px, -30%);
+     text-decoration: none;
+ 
+ }
+ 
+ #social i {
+     font-size: 20px; 
+     padding: 5px;
+ }
+
+ .name p {
+    margin-left: 20%;
+    font-size: 20px;
+    margin-top: 3%;
+    font-weight: lighter;
+ }
+ 
+
+
+/*
+.copyright p {
+  float: right;
+    margin-top: 2.5%;
+    transform: translate(400px, 75% );
     
 }
 
 #social {
-    float: right;
-    border: 10px solid #387a82;
-    background-color: #387a82;
-    transform: translate(-100px, -30%);
-    text-decoration: none;
-
+float: right;
+margin-left: 40%;
+transform: translate(500px, -200%);
+border: 6px solid #387a82;
+padding: 5px;
+background-color: #387a82;
+text-decoration: none;
 }
 
 #social i {
-    font-size: 20px; 
-    padding: 5px;
+   font-size: 20px; 
+   padding: 5px;
 }
 
+*/
